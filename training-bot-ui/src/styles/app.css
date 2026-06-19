@@ -1,0 +1,67 @@
+body {
+
+margin: 0;
+
+background: #0f172a;
+
+color: white;
+
+font-family: Arial;
+}
+
+.container {
+
+padding: 20px;
+}
+
+.top-section {
+
+display: flex;
+
+gap: 20px;
+}
+
+.card {
+
+flex: 1;
+
+background: #1e293b;
+
+padding: 20px;
+
+border-radius: 10px;
+}
+
+input {
+
+width: 100%;
+
+padding: 10px;
+
+margin-bottom: 10px;
+}
+
+button {
+
+padding: 10px;
+
+margin-right: 10px;
+
+cursor: pointer;
+}
+
+.result-box {
+
+margin-top: 20px;
+
+background: #020617;
+
+padding: 20px;
+
+border-radius: 10px;
+}
+
+pre {
+
+white-space: pre-wrap;
+}

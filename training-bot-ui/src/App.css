@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #f4f7fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#root {
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.app-header {
+  background: linear-gradient(135deg,#2563eb,#7c3aed);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.section-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
