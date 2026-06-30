@@ -238,7 +238,7 @@ Create a `.env` file in the backend directory and add the required API keys.
 Example:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key
+GROQ_API_KEY=your_groq_api_key
 ```
 
 Add any additional environment variables required by your application.
