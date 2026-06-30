@@ -207,6 +207,123 @@ docker compose up --build
 
 ---
 
+# 🚀 Getting Started
+
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+* Docker Desktop
+* Docker Compose
+* Node.js (v18 or later)
+* npm
+* Python 3.11+ (if running the backend locally)
+
+---
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/akilanm71/AI-Powered-RAG-PubMed-Research-Dataset-Generation.git
+
+cd AI-Powered-RAG-PubMed-Research-Dataset-Generation
+```
+
+---
+
+## 2. Configure Environment Variables
+
+Create a `.env` file in the backend directory and add the required API keys.
+
+Example:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+```
+
+Add any additional environment variables required by your application.
+
+---
+
+## 3. Build and Start the Backend
+
+From the project root, run:
+
+```bash
+docker compose up --build
+```
+
+This command will:
+
+* Build all Docker images
+* Start the backend services
+* Launch the API and supporting containers
+
+---
+
+## 4. Start the React Frontend
+
+Open a new terminal.
+
+Navigate to the frontend directory:
+
+```bash
+cd training-bot-ui
+```
+
+Install dependencies (first time only):
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 5. Open the Application
+
+After the frontend starts, open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+(The port may vary depending on your Vite configuration.)
+
+---
+
+## 6. Using the Application
+
+You can now:
+
+* Search PubMed research articles
+* Perform Retrieval-Augmented Generation (RAG)
+* Generate biomedical datasets
+* Upload and manage datasets
+* View project statistics from the dashboard
+
+---
+
+## Stopping the Application
+
+To stop the backend:
+
+```bash
+Ctrl + C
+```
+
+To remove containers:
+
+```bash
+docker compose down
+```
+
+
 # Future Improvements
 
 * Airflow Workflow Orchestration
@@ -223,3 +340,5 @@ docker compose up --build
 Akilan M
 
 AI / Data Science / Python Development Project
+
+Linkedin Link of Tutorial: https://www.linkedin.com/feed/update/urn:li:activity:7477279011744890880/
